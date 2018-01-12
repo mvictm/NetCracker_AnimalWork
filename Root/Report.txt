@@ -1,0 +1,140 @@
+Sun Jan 07 05:30:44 YEKT 2018
+Buy new animal : Cat
+Breed: ilelvuuo Name: onrtkz Character: d Cost: 312
+
+Sun Jan 07 05:30:44 YEKT 2018
+Buy new animal : Cat
+Breed: nmdyfco Name: iwyjqd Character: r Cost: 1479
+
+Sun Jan 07 05:30:44 YEKT 2018
+Buy new animal : Wolf
+Breed: o Name: xwfmsfc Character: avjor Cost: 2095
+
+Sun Jan 07 05:30:44 YEKT 2018
+Buy new animal : Wolf
+Breed: qvdirki Name: lqkvmy Character: iz Cost: 4629
+
+Sun Jan 07 05:30:44 YEKT 2018
+Buy new animal : Wolf
+Breed: onwa Name:  Character: flsgbyp Cost: 962
+
+Sun Jan 07 05:30:44 YEKT 2018
+Sell animal : Cat
+Breed: ilelvuuo Name: onrtkz Character: d Cost: 312
+
+Sun Jan 07 05:30:44 YEKT 2018
+Sell animal : Cat
+Breed: nmdyfco Name: iwyjqd Character: r Cost: 1479
+
+Fri Jan 12 22:55:06 YEKT 2018
+Buy new animal : Dog
+Breed: a Name: yvhvbtx Character: xsu Cost: 4560
+
+Fri Jan 12 22:55:06 YEKT 2018
+Buy new animal : Wolf
+Breed: ziffbt Name: wv Character: kk Cost: 4566
+
+Fri Jan 12 22:55:06 YEKT 2018
+Buy new animal : Cat
+Breed:  Name: nntj Character: yewggw Cost: 5430
+
+Fri Jan 12 22:55:06 YEKT 2018
+Buy new animal : Cat
+Breed: oj Name: nbygobqe Character: qfxg Cost: 1015
+
+Fri Jan 12 22:55:06 YEKT 2018
+Buy new animal : Dog
+Breed: crc Name: cbnlb Character: us Cost: 377
+
+Fri Jan 12 22:55:06 YEKT 2018
+Sell animal : Dog
+Breed: a Name: yvhvbtx Character: xsu Cost: 4560
+
+Fri Jan 12 22:55:06 YEKT 2018
+Sell animal : Wolf
+Breed: ziffbt Name: wv Character: kk Cost: 4566
+
+Fri Jan 12 23:12:21 YEKT 2018
+Buy new animal : Wolf
+Breed: sra Name: fralxf Character: vs Cost: 3496
+
+Fri Jan 12 23:12:21 YEKT 2018
+Buy new animal : Cat
+Breed:  Name: zl Character:  Cost: 2347
+
+Fri Jan 12 23:12:21 YEKT 2018
+Buy new animal : Dog
+Breed: a Name: voujrc Character: gwzuv Cost: 4436
+
+Fri Jan 12 23:12:21 YEKT 2018
+Buy new animal : Dog
+Breed: dbonx Name: gr Character: eytycu Cost: 824
+
+Fri Jan 12 23:12:22 YEKT 2018
+Buy new animal : Shark
+Breed: izmipbpb Name: znyj Character: mszeel Cost: 2048
+
+Fri Jan 12 23:12:22 YEKT 2018
+Sell animal : Wolf
+Breed: sra Name: fralxf Character: vs Cost: 3496
+
+Fri Jan 12 23:12:22 YEKT 2018
+Sell animal : Cat
+Breed:  Name: zl Character:  Cost: 2347
+
+Sat Jan 13 00:09:07 YEKT 2018
+Buy new animal : Cat
+Breed: cgupmw Name: v Character: jo Cost: 5393
+
+Sat Jan 13 00:09:08 YEKT 2018
+Buy new animal : Cat
+Breed:  Name: f Character: c Cost: 5435
+
+Sat Jan 13 00:09:08 YEKT 2018
+Buy new animal : Cat
+Breed: qu Name: zirsycu Character: rqml Cost: 3555
+
+Sat Jan 13 00:09:08 YEKT 2018
+Buy new animal : Dog
+Breed:  Name: kyhaief Character: jus Cost: 1306
+
+Sat Jan 13 00:09:08 YEKT 2018
+Buy new animal : Shark
+Breed: ovkgpvt Name: lxi Character: rxipe Cost: 2691
+
+Sat Jan 13 00:09:08 YEKT 2018
+Sell animal : Cat
+Breed: cgupmw Name: v Character: jo Cost: 5393
+
+Sat Jan 13 00:09:08 YEKT 2018
+Sell animal : Cat
+Breed:  Name: f Character: c Cost: 5435
+
+Sat Jan 13 00:10:16 YEKT 2018
+Buy new animal : Wolf
+Breed:  Name: plyt Character: uyz Cost: 3161
+
+Sat Jan 13 00:10:16 YEKT 2018
+Buy new animal : Dog
+Breed: ceb Name:  Character:  Cost: 4701
+
+Sat Jan 13 00:10:16 YEKT 2018
+Buy new animal : Cat
+Breed:  Name: bon Character: od Cost: 389
+
+Sat Jan 13 00:10:16 YEKT 2018
+Buy new animal : Shark
+Breed:  Name: pdm Character: md Cost: 4706
+
+Sat Jan 13 00:10:16 YEKT 2018
+Buy new animal : Cat
+Breed: zsylrvi Name: gommdspr Character: xnf Cost: 1950
+
+Sat Jan 13 00:10:16 YEKT 2018
+Sell animal : Wolf
+Breed:  Name: plyt Character: uyz Cost: 3161
+
+Sat Jan 13 00:10:16 YEKT 2018
+Sell animal : Dog
+Breed: ceb Name:  Character:  Cost: 4701
+
