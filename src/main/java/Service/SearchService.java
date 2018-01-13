@@ -1,6 +1,6 @@
 package Service;
 
-import AnimalPack.Animal;
+import AnimasPack.Animal;
 
 /**
  * Created by 1 on 20.12.2017.

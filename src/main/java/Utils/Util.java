@@ -1,19 +1,16 @@
 package Utils;
 
-import AnimalPack.*;
+import AnimasPack.*;
 import Operation.BuyAndSell;
 import Service.PetShopStorage;
-import org.apache.logging.log4j.Level;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 import java.io.*;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Properties;
 import java.util.Random;
 

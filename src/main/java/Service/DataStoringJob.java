@@ -3,7 +3,7 @@ package Service;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import AnimalPack.Animal;
+import AnimasPack.Animal;
 import Utils.Util;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

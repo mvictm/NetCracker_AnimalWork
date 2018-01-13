@@ -50,10 +50,6 @@ public class RealLife {
         }
 
         buyAndSell.sell();
-        buyAndSell.sell();
-
-
-       // Util.useDb();
 
     }
 

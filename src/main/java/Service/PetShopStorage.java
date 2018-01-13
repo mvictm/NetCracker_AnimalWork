@@ -1,6 +1,6 @@
 package Service;
 
-import AnimalPack.Animal;
+import AnimasPack.Animal;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

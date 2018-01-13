@@ -1,7 +1,6 @@
 package Operation;
 
-import AnimalPack.Animal;
-import Service.PetShopStorage;
+import AnimasPack.Animal;
 import Service.PetShopStorage;
 import Service.PrintService;
 import Utils.Util;

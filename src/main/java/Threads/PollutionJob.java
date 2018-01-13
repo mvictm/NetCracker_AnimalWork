@@ -1,6 +1,6 @@
 package Threads;
 
-import AnimalPack.Animal;
+import AnimasPack.Animal;
 import Service.PetShopStorage;
 
 import java.util.List;
