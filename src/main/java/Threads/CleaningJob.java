@@ -2,14 +2,19 @@ package Threads;
 
 import AnimasPack.Animal;
 import Service.PetShopStorage;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by 1 on 24.12.2017.
  */
 public class CleaningJob extends Thread {
+    private static final Logger LOGGER = LogManager.getLogger(CleaningJob.class.getName());
 
     private PetShopStorage petShopStorage = PetShopStorage.getInstance();
 
@@ -39,7 +44,9 @@ public class CleaningJob extends Thread {
                 try {
                     Thread.sleep(500);
                 } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    StringBuilder errorString = new StringBuilder();
+                    errorString.append("Thread is no sleep");
+                    LOGGER.error(errorString);
                 }
             }
         }

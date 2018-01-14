@@ -15,10 +15,7 @@ import java.util.List;
  * Created by 1 on 21.12.2017.
  */
 public class DataStoringJob {
-
     private static final Logger lOGGER = LogManager.getLogger(DataStoringJob.class.getName());
-
-    private static final String PATH = "Db.json";
 
     private PetShopStorage petShopStorage = PetShopStorage.getInstance();
 
@@ -35,12 +32,11 @@ public class DataStoringJob {
     }
 
     public void run() {
-
         List<Animal> list = petShopStorage.getAnimalList();
 
         JSONObject object = new JSONObject();
 
-        try (FileWriter writer = new FileWriter(Util.getPath() + "/" + PATH)) {
+        try (FileWriter writer = new FileWriter(Util.getRootPath() + "/" + Util.getDatabasePath())) {
             writer.write("{");
 
             for (int i = 0; i < list.size(); i++) {
@@ -56,25 +52,24 @@ public class DataStoringJob {
                         writer.write(object.toJSONString() + "\n");
 
                         StringBuilder infoString = new StringBuilder();
-                        infoString.append("Successful recording in file" + PATH);
+                        infoString.append("Successful recording in file" + Util.getDatabasePath());
                         lOGGER.info(infoString);
                     } catch (IOException ex) {
                         StringBuilder errorString = new StringBuilder();
-                        errorString.append("Can't put JSON object in file " + PATH);
+                        errorString.append("Can't put JSON object in file " + Util.getDatabasePath());
                         lOGGER.error(errorString);
                     }
                 } else
-
                     try {
                         writer.write("\"Animal " + (i + 1) + "\":" + "\n");
                         writer.write(object.toJSONString() + "," + "\n");
 
                         StringBuilder infoString = new StringBuilder();
-                        infoString.append("Successful recording in file" + PATH);
+                        infoString.append("Successful recording in file" + Util.getDatabasePath());
                         lOGGER.info(infoString);
                     } catch (IOException ex) {
                         StringBuilder errorString = new StringBuilder();
-                        errorString.append("Can't write in file " + PATH);
+                        errorString.append("Can't write in file " + Util.getDatabasePath());
                         lOGGER.error(errorString);
                     }
             }
@@ -84,15 +79,7 @@ public class DataStoringJob {
             writer.close();
         } catch (IOException e) {
             StringBuilder errorString = new StringBuilder();
-            errorString.append("Can't write in file " + PATH);
-            lOGGER.error(errorString);
-        }
-
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            StringBuilder errorString = new StringBuilder();
-            errorString.append("Thread is no sleep");
+            errorString.append("Can't write in file " + Util.getDatabasePath());
             lOGGER.error(errorString);
         }
     }

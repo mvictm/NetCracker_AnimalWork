@@ -11,6 +11,7 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 import java.io.*;
+import java.util.Date;
 import java.util.Properties;
 import java.util.Random;
 
@@ -18,11 +19,13 @@ import java.util.Random;
  * Created by 1 on 23.12.2017.
  */
 public class Util {
-
     private static final Logger LOGGER = LogManager.getLogger(Util.class.getName());
 
-    public static String getPath() {
+    private static final String REPORTPATH = "Report.txt";
 
+    private static final String DATABASEPATH = "Database.json";
+
+    public static String getRootPath() {
         Properties property = new Properties();
         String root = "";
 
@@ -36,7 +39,7 @@ public class Util {
                 rootDirectory.mkdirs();
             } else {
                 StringBuilder infoString = new StringBuilder();
-                infoString.append("Root directory can't be created with path [").append(root).append("].");
+                infoString.append("Repeated handling for ").append(root);
                 LOGGER.info(infoString);
             }
         } catch (IOException e) {
@@ -48,7 +51,6 @@ public class Util {
     }
 
     public static String randomName() {
-
         String symbols = "abcdefghijklmnopqrstuvwxyz";
         StringBuilder randString = new StringBuilder();
         int count = new Random().nextInt(9);
@@ -64,7 +66,6 @@ public class Util {
     }
 
     public static Animal createRandomAnimal() {
-
         Animal animal = null;
         int i = (int) (Math.random() * 4 + 1);
 
@@ -88,7 +89,6 @@ public class Util {
     }
 
     public static Animal getRandomAnimal() {
-
         if (PetShopStorage.getInstance().getSize() > 0) {
             return PetShopStorage.getInstance().getAnimal(0);
         } else {
@@ -98,12 +98,11 @@ public class Util {
     }
 
     public static void useDb() {
-
         JSONParser parser = new JSONParser();
 
         try {
 
-            JSONObject object = (JSONObject) parser.parse(new FileReader(Util.getPath() + "/" + "Db.json"));
+            JSONObject object = (JSONObject) parser.parse(new FileReader(Util.getRootPath() + "/" + Util.getDatabasePath()));
 
             String type = (String) object.get("Type");
             System.out.println("Type: " + type);
@@ -128,6 +127,34 @@ public class Util {
 
     public static Integer randomNumb() {
         return new Random().nextInt(2);
+    }
+
+    public static void newSession() {
+        try (FileWriter writer = new FileWriter(getRootPath() + "/" + getReportPath(), true)) {
+
+            Date date = new Date();
+            writer.write("-----------------NEW SESSION------------------------");
+            writer.write(date.toString() + "\n");
+            writer.write("\n");
+            writer.flush();
+            writer.close();
+
+            StringBuilder infoString = new StringBuilder();
+            infoString.append("Start session");
+            LOGGER.info(infoString);
+        } catch (IOException e) {
+            StringBuilder errorString = new StringBuilder();
+            errorString.append("Problem with start session");
+            LOGGER.info(errorString);
+        }
+    }
+
+    public static String getReportPath() {
+        return REPORTPATH;
+    }
+
+    public static String getDatabasePath() {
+        return DATABASEPATH;
     }
 }
 

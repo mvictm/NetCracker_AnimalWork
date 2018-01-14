@@ -11,7 +11,6 @@ import java.util.List;
  * Created by 1 on 20.12.2017.
  */
 public class PetShopStorage {
-
     private static final Logger LOGGER = LogManager.getLogger(PetShopStorage.class.getName());
 
     private List<Animal> animalList = new ArrayList<Animal>();
@@ -47,7 +46,7 @@ public class PetShopStorage {
         animalList.remove(animal);
 
         StringBuilder infoString = new StringBuilder();
-        infoString.append("Remove " + animal.information());
+        infoString.append("Remove " + animal.getType() + " - " + animal.information());
         LOGGER.info(infoString);
     }
 

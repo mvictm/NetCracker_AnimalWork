@@ -5,12 +5,13 @@ import Service.PetShopStorage;
 
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by 1 on 24.12.2017.
  */
 public class PollutionJob extends Thread {
-
     private PetShopStorage petShopStorage = PetShopStorage.getInstance();
 
     private List<Animal> animalList = petShopStorage.getAnimalList();
@@ -42,3 +43,4 @@ public class PollutionJob extends Thread {
         }
     }
 }
+

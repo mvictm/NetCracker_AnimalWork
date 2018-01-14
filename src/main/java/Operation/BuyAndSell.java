@@ -11,7 +11,6 @@ import org.apache.logging.log4j.Logger;
  * Created by 1 on 20.12.2017.
  */
 public class BuyAndSell {
-
     private static final Logger LOGGER = LogManager.getLogger(BuyAndSell.class.getName());
 
     private PetShopStorage petShopStorage = PetShopStorage.getInstance();

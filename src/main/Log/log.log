@@ -1,0 +1,170 @@
+2018-01-14 18:54:59,386 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 18:55:09,597 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 18:55:14,640 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 18:55:14,660 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 18:55:14,661 INFO O.BuyAndSell [main] Buy new animal in shop Cat
+2018-01-14 18:55:19,619 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 18:55:19,634 INFO S.DataStoringJob [Thread-4] Successful recording in fileDb.json
+2018-01-14 18:55:19,695 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 18:55:19,697 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 18:55:19,697 INFO O.BuyAndSell [main] Buy new animal in shop Shark
+2018-01-14 18:55:24,701 INFO S.PetShopStorage [main] Return animal number 0
+2018-01-14 18:55:24,701 INFO S.PetShopStorage [main] Remove Breed: yzii Name: ketgcm Character: ar Cost: 5410
+2018-01-14 18:55:29,637 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 18:55:29,640 INFO S.DataStoringJob [Thread-4] Successful recording in fileDb.json
+2018-01-14 18:57:16,279 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 18:57:26,340 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 18:57:26,404 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 18:57:26,426 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 18:57:26,426 INFO O.BuyAndSell [main] Buy new animal in shop Dog
+2018-01-14 18:57:36,361 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 18:57:36,372 INFO S.DataStoringJob [Thread-4] Successful recording in fileDb.json
+2018-01-14 18:57:36,457 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 18:57:36,492 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 18:57:36,493 INFO O.BuyAndSell [main] Buy new animal in shop Dog
+2018-01-14 19:00:18,321 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:00:18,365 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:00:18,365 INFO O.BuyAndSell [main] Buy new animal in shop Shark
+2018-01-14 19:00:18,365 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:00:18,377 INFO S.DataStoringJob [Thread-4] Successful recording in fileDb.json
+2018-01-14 19:00:23,432 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:00:23,434 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:00:23,434 INFO O.BuyAndSell [main] Buy new animal in shop Wolf
+2018-01-14 19:00:28,396 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:00:28,399 INFO S.DataStoringJob [Thread-4] Successful recording in fileDb.json
+2018-01-14 19:00:28,400 INFO S.DataStoringJob [Thread-4] Successful recording in fileDb.json
+2018-01-14 19:00:28,434 INFO S.PetShopStorage [main] Return animal number 0
+2018-01-14 19:00:28,435 INFO S.PetShopStorage [main] Remove Breed: rhwb Name:  Character: jguhyf Cost: 4163
+2018-01-14 19:00:28,437 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:00:28,439 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:00:28,440 INFO O.BuyAndSell [main] Sell animal Shark
+2018-01-14 19:04:32,178 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:04:32,186 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:04:32,191 INFO S.DataStoringJob [Thread-4] Successful recording in fileDb.json
+2018-01-14 19:04:32,207 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:04:32,207 INFO O.BuyAndSell [main] Buy new animal in shop Wolf
+2018-01-14 19:04:37,340 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:04:37,343 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:04:37,343 INFO O.BuyAndSell [main] Buy new animal in shop Dog
+2018-01-14 19:08:45,869 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:08:51,050 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:08:51,241 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:08:51,241 INFO O.BuyAndSell [main] Buy new animal in shop Wolf
+2018-01-14 19:08:55,946 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:08:55,985 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:08:56,272 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:08:56,275 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:08:56,275 INFO O.BuyAndSell [main] Buy new animal in shop Cat
+2018-01-14 19:09:01,284 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:09:01,287 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:09:01,287 INFO O.BuyAndSell [main] Buy new animal in shop Cat
+2018-01-14 19:09:06,011 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:09:06,035 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:09:06,036 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:09:06,036 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:09:06,321 INFO S.PetShopStorage [main] Return animal number 0
+2018-01-14 19:09:06,321 INFO S.PetShopStorage [main] Remove Wolf - Breed: ggw Name: m Character: anealn Cost: 3314
+2018-01-14 19:09:11,355 INFO S.PetShopStorage [main] Return animal number 0
+2018-01-14 19:09:11,356 INFO S.PetShopStorage [main] Remove Cat - Breed: uck Name:  Character: bugekfzs Cost: 92
+2018-01-14 19:09:16,041 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:09:16,044 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:09:21,470 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:09:21,861 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:09:21,943 INFO O.BuyAndSell [main] Buy new animal in shop Shark
+2018-01-14 19:09:26,062 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:09:26,064 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:09:26,064 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:09:26,951 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:09:26,957 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:09:26,957 INFO O.BuyAndSell [main] Buy new animal in shop Shark
+2018-01-14 19:09:31,995 INFO S.PetShopStorage [main] Return animal number 0
+2018-01-14 19:09:31,995 INFO S.PetShopStorage [main] Remove Cat - Breed: y Name: crkhlsq Character: bmjb Cost: 3812
+2018-01-14 19:09:36,100 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:09:36,103 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:09:36,107 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:09:37,001 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:09:37,048 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:09:37,049 INFO O.BuyAndSell [main] Buy new animal in shop Shark
+2018-01-14 19:09:42,074 INFO S.PetShopStorage [main] Return animal number 0
+2018-01-14 19:09:42,074 INFO S.PetShopStorage [main] Remove Shark - Breed: iqvqluvq Name:  Character: a Cost: 4197
+2018-01-14 19:09:42,075 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:09:42,078 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:09:42,078 INFO O.BuyAndSell [main] Sell animal Shark
+2018-01-14 19:09:46,125 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:09:46,127 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:09:46,128 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:09:47,112 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:09:47,157 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:09:47,157 INFO O.BuyAndSell [main] Buy new animal in shop Dog
+2018-01-14 19:09:52,166 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:09:52,169 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:09:52,169 INFO O.BuyAndSell [main] Buy new animal in shop Shark
+2018-01-14 19:09:56,153 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:09:56,174 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:09:56,177 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:09:56,177 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:09:56,177 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:09:57,205 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:09:57,210 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:09:57,210 INFO O.BuyAndSell [main] Buy new animal in shop Shark
+2018-01-14 19:10:02,222 INFO S.PetShopStorage [main] Return animal number 0
+2018-01-14 19:10:02,222 INFO S.PetShopStorage [main] Remove Shark - Breed: fvjlkwc Name: ypdlbdre Character: tiksft Cost: 4487
+2018-01-14 19:10:06,205 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:10:06,208 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:10:06,208 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:10:06,208 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:10:06,209 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:10:12,231 INFO S.PetShopStorage [main] Return animal number 0
+2018-01-14 19:10:12,231 INFO S.PetShopStorage [main] Remove Shark - Breed: nbe Name:  Character: xj Cost: 3020
+2018-01-14 19:34:24,690 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:34:24,769 INFO U.Util [main] Start session
+2018-01-14 19:34:24,783 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:34:29,832 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:34:29,839 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:34:29,840 INFO O.BuyAndSell [main] Buy new animal in shop Shark
+2018-01-14 19:34:34,803 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:34:34,809 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:34:39,904 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:34:39,934 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:34:39,934 INFO O.BuyAndSell [main] Buy new animal in shop Cat
+2018-01-14 19:34:44,870 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:34:44,909 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:34:44,909 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:34:49,955 INFO S.PetShopStorage [main] Return animal number 0
+2018-01-14 19:34:49,955 INFO S.PetShopStorage [main] Remove Shark - Breed: spskq Name: ibucu Character: l Cost: 5697
+2018-01-14 19:34:54,937 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:34:54,969 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:36:28,159 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:36:28,350 INFO U.Util [main] Start session
+2018-01-14 19:36:28,612 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:36:28,622 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:36:28,623 INFO O.BuyAndSell [main] Buy new animal in shop Cat
+2018-01-14 19:36:28,641 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:36:28,661 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:36:38,676 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:36:38,683 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:37:03,377 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:37:03,404 INFO U.Util [main] Start session
+2018-01-14 19:37:03,416 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:37:13,515 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:38:48,501 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:38:48,580 INFO U.Util [main] Start session
+2018-01-14 19:38:49,322 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:39:09,666 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:39:19,687 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:39:38,404 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:40:15,626 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:40:15,654 INFO U.Util [main] Start session
+2018-01-14 19:40:15,675 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:40:25,712 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:40:35,734 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:48:51,619 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:48:51,642 INFO U.Util [main] Start session
+2018-01-14 19:48:51,662 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:48:51,673 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:48:51,673 INFO O.BuyAndSell [main] Buy new animal in shop Shark
+2018-01-14 19:48:51,685 INFO U.Util [Thread-4] Repeated handling for Root/
+2018-01-14 19:48:51,765 INFO S.DataStoringJob [Thread-4] Successful recording in fileDatabase.json
+2018-01-14 19:48:56,680 INFO U.Util [main] Repeated handling for Root/
+2018-01-14 19:48:56,683 INFO S.PrintService [main] Successful recording in file Report.txt
+2018-01-14 19:48:56,684 INFO O.BuyAndSell [main] Buy new animal in shop Wolf

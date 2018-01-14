@@ -6,7 +6,6 @@ import AnimasPack.Animal;
  * Created by 1 on 20.12.2017.
  */
 public class SearchService {
-
     private static PetShopStorage petShopStorage = PetShopStorage.getInstance();
 
     private static SearchService ourInstance = new SearchService();

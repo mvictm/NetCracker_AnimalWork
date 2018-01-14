@@ -14,10 +14,7 @@ import java.util.Date;
  * Created by 1 on 20.12.2017.
  */
 public class PrintService {
-
     private static final Logger lOGGER = LogManager.getLogger(PrintService.class.getName());
-
-    private static final String PATH = "Report.txt";
 
     private static PrintService instance = new PrintService();
 
@@ -32,9 +29,6 @@ public class PrintService {
     }
 
     public void printReport(Animal animal, boolean buyOrSell) {
-
-        JSONObject object = new JSONObject();
-
         String str;
         if (buyOrSell) {
             str = "Buy new animal";
@@ -42,7 +36,7 @@ public class PrintService {
             str = "Sell animal";
         }
 
-        try (FileWriter writer = new FileWriter(Util.getPath() + "/" + PATH, true)) {
+        try (FileWriter writer = new FileWriter(Util.getRootPath() + "/" + Util.getReportPath(), true)) {
 
             Date date = new Date();
             writer.write(date.toString() + "\n");
@@ -52,11 +46,11 @@ public class PrintService {
             writer.close();
 
             StringBuilder infoString = new StringBuilder();
-            infoString.append("Successful recording in file " + PATH);
+            infoString.append("Successful recording in file " + Util.getReportPath());
             lOGGER.info(infoString);
         } catch (IOException e) {
             StringBuilder errorString = new StringBuilder();
-            errorString.append("Problem with recording to file " + PATH);
+            errorString.append("Problem with recording to file " + Util.getReportPath());
             lOGGER.info(errorString);
         }
     }

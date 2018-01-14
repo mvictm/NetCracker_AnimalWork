@@ -54,7 +54,6 @@ public class Cat extends Pet {
     }
 
     private class Fleas {
-
         private void haveFleas(int i) {
             if (i == 1) {
                 degreeOfPollution = 10;

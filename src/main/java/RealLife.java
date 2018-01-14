@@ -1,8 +1,9 @@
 
-import AnimalPack.*;
+import AnimasPack.*;
 import Operation.BuyAndSell;
 import Service.DataStoringJob;
 import Service.PetShopStorage;
+import Service.RealLifeEmulator;
 import Service.SearchService;
 import Threads.CleaningJob;
 import Threads.PollutionJob;
@@ -14,19 +15,9 @@ import Utils.Util;
 public class RealLife {
 
     public static void main(String[] args) {
-//        RealLifeEmulator realLifeEmulator =  RealLifeEmulator.getInstance();
+        RealLifeEmulator realLifeEmulator =  RealLifeEmulator.getInstance();
 
-        /*Shark shark = new Shark();
-        PetShopStorage petShopStorage = PetShopStorage.getInstance();
-        petShopStorage.addToAnimalList(shark);
 
-        PollutionJob pollutionJob = PollutionJob.getInstance();
-        pollutionJob.start();
-        CleaningJob cleaningJob = CleaningJob.getInstance();
-        cleaningJob.start();
-        *//*while(true){
-
-        }*/
 
         /*Shark shark = new Shark();
         Dog dog = new Dog();
@@ -44,12 +35,12 @@ public class RealLife {
         SearchService searchService = SearchService.getInstance();
         searchService.searchAnimalBreed(shark.getBreed());*/
 
-        BuyAndSell buyAndSell = BuyAndSell.getInstance();
+        /*BuyAndSell buyAndSell = BuyAndSell.getInstance();
         for (int i = 0; i <5; i++) {
             buyAndSell.buy();
         }
 
-        buyAndSell.sell();
+        buyAndSell.sell();*/
 
     }
 
