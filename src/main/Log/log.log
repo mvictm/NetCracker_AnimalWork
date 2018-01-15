@@ -168,3 +168,89 @@
 2018-01-14 19:48:56,680 INFO U.Util [main] Repeated handling for Root/
 2018-01-14 19:48:56,683 INFO S.PrintService [main] Successful recording in file Report.txt
 2018-01-14 19:48:56,684 INFO O.BuyAndSell [main] Buy new animal in shop Wolf
+2018-01-15 22:25:15,278 INFO U.Util [main] Repeated handling for Root/
+2018-01-15 22:31:05,850 INFO U.Util [main] Repeated handling for Root/
+2018-01-15 22:34:09,428 INFO U.Util [main] Repeated handling for Root/
+2018-01-15 22:35:38,214 INFO U.Util [main] Repeated handling for Root/
+2018-01-15 22:44:24,735 INFO U.Util [main] Repeated handling for Root/
+2018-01-15 22:45:08,653 INFO U.Util [main] Repeated handling for Root/
+2018-01-15 22:49:28,126 INFO U.Util [main] Repeated handling for Root/
+2018-01-15 23:38:48,829 INFO U.Util [main] Repeated handling for Root/
+2018-01-15 23:42:58,771 INFO U.Util [main] Repeated handling for Root/
+2018-01-15 23:42:58,867 INFO U.Util [main] Put information in file Shark - Breed: r Name: kft Character:  Cost: 425
+2018-01-15 23:42:58,873 INFO U.Util [main] Put information in file Cat - Breed: dsf Name: kftsfd Character: sfd Cost: 4255
+2018-01-16 00:54:54,492 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 00:54:54,553 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 00:54:54,554 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 00:56:15,613 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 00:56:15,663 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 00:56:15,664 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 00:57:24,604 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 00:57:24,644 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 00:57:24,645 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 00:57:24,645 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 00:58:16,139 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 00:58:16,296 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 00:58:16,296 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 00:58:16,296 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 00:58:16,330 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 00:59:13,563 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 00:59:13,617 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 00:59:13,617 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 00:59:13,627 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 00:59:13,753 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 01:02:43,058 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 01:02:43,105 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:02:43,106 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:02:43,107 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:02:43,131 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 01:04:37,394 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 01:04:37,435 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:04:37,435 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:04:37,436 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:06:31,446 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 01:06:31,488 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:06:31,488 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:06:31,489 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:16:31,616 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 01:17:40,702 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 01:18:08,204 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 01:19:28,628 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 01:19:28,661 INFO U.Util [main] Put information out of file Shark - Breed: znvp Name: etgxt Character: cw Cost: 5455
+2018-01-16 01:19:28,686 INFO U.Util [main] Put information out of file Dog - Breed: pbhpco Name: gaescqj Character: mjjv Cost: 5247
+2018-01-16 01:19:48,836 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 01:19:48,892 INFO U.Util [main] Put information out of file Shark - Breed: znvp Name: etgxt Character: cw Cost: 5455
+2018-01-16 01:19:48,898 INFO U.Util [main] Put information out of file Dog - Breed: pbhpco Name: gaescqj Character: mjjv Cost: 5247
+2018-01-16 01:19:48,902 INFO U.Util [main] Put information out of file Cat - Breed: wtru Name: ydbw Character: yng Cost: 4992
+2018-01-16 01:20:37,455 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 01:20:37,494 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:20:37,496 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:20:37,496 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:20:37,534 INFO U.Util [main] Repeated handling for Root/
+2018-01-16 01:20:37,540 INFO U.Util [main] Put information out of file Shark - Breed: vcpqcl Name: w Character: msgqrf Cost: 934
+2018-01-16 01:20:37,541 INFO U.Util [main] Put information out of file Dog - Breed: yfx Name: gzxa Character: dnghsmp Cost: 5418
+2018-01-16 01:20:37,541 INFO U.Util [main] Put information out of file Cat - Breed: xxxeg Name: sfbieixt Character: avi Cost: 4402
+2018-01-16 01:23:20,454 INFO U.Util [main] Repeated take Root/ path
+2018-01-16 01:23:20,466 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:23:20,466 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:23:20,466 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:23:20,486 INFO U.Util [main] Repeated take Root/ path
+2018-01-16 01:23:20,492 INFO U.Util [main] Take information from file Shark - Breed: ahbsrpv Name: laacic Character:  Cost: 1673
+2018-01-16 01:23:20,494 INFO U.Util [main] Take information from file Dog - Breed: hqq Name: rfglrzc Character: sjumpu Cost: 4446
+2018-01-16 01:23:20,495 INFO U.Util [main] Take information from file Cat - Breed: mncxqpj Name: zjgjc Character: hte Cost: 3775
+2018-01-16 01:25:39,049 INFO U.Util [main] Repeated take Root/ path
+2018-01-16 01:25:39,080 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:25:39,081 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:25:39,081 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:25:39,104 INFO U.Util [main] Repeated take Root/ path
+2018-01-16 01:25:39,119 INFO U.Util [main] Take information from file Database.jsonabout animal: Shark - Breed: grd Name: burhio Character: wo Cost: 3424
+2018-01-16 01:25:39,120 INFO U.Util [main] Take information from file Database.jsonabout animal: Dog - Breed: k Name: dzcz Character: zdrm Cost: 4940
+2018-01-16 01:25:39,120 INFO U.Util [main] Take information from file Database.jsonabout animal: Cat - Breed: wc Name: eek Character: swfmtjw Cost: 1466
+2018-01-16 01:26:53,315 INFO U.Util [main] Repeated take Root/ path
+2018-01-16 01:26:53,354 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:26:53,355 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:26:53,355 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 01:26:53,383 INFO U.Util [main] Repeated take Root/ path
+2018-01-16 01:26:53,389 INFO U.Util [main] Take information from Database.json about animal: Shark - Breed: e Name:  Character:  Cost: 3586
+2018-01-16 01:26:53,389 INFO U.Util [main] Take information from Database.json about animal: Dog - Breed: focsfyti Name:  Character: gksn Cost: 3837
+2018-01-16 01:26:53,390 INFO U.Util [main] Take information from Database.json about animal: Cat - Breed: jhallz Name: yaxdi Character: jjkn Cost: 5851

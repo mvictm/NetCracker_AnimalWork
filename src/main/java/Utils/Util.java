@@ -6,14 +6,13 @@ import Service.PetShopStorage;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 import java.io.*;
-import java.util.Date;
-import java.util.Properties;
-import java.util.Random;
+import java.util.*;
 
 /**
  * Created by 1 on 23.12.2017.
@@ -39,7 +38,7 @@ public class Util {
                 rootDirectory.mkdirs();
             } else {
                 StringBuilder infoString = new StringBuilder();
-                infoString.append("Repeated handling for ").append(root);
+                infoString.append("Repeated take ").append(root).append(" path");
                 LOGGER.info(infoString);
             }
         } catch (IOException e) {
@@ -155,6 +154,63 @@ public class Util {
 
     public static String getDatabasePath() {
         return DATABASEPATH;
+    }
+
+    public static List<Animal> parseDatabaseFile() {
+        List<Animal> animalList = new ArrayList<>();
+
+        Object obj = null;
+        try {
+            obj = new JSONParser().parse(new FileReader(Util.getRootPath() + "/" + "Database.json"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        JSONObject jo = (JSONObject) obj;
+        JSONArray animalArray = (JSONArray) jo.get("Animals");
+        Iterator animalItr = animalArray.iterator();
+
+        while (animalItr.hasNext()) {
+            Animal animal;
+
+            JSONObject test = (JSONObject) animalItr.next();
+            String type = (String) test.get("Type");
+            String name = (String) test.get("Name");
+            String breed = (String) test.get("Breed");
+            String cost = (String) test.get("Cost");
+            Integer intCost = Integer.parseInt(cost);
+            String character = (String) test.get("Character");
+
+            animal = whatAnimalCreate(type, name, breed, intCost, character);
+
+            animalList.add(animal);
+
+            StringBuilder infoString = new StringBuilder();
+            infoString.append("Take information from ").append(getDatabasePath()).append(" about animal: ").append(animal.getType()).append(" - ").append(animal.information());
+            LOGGER.info(infoString);
+        }
+        return animalList;
+    }
+
+    private static Animal whatAnimalCreate(String type, String name, String breed, Integer cost, String character) {
+        Animal animal = null;
+        switch (type) {
+            case "Dog":
+                animal = new Dog(name, breed, cost, character);
+                break;
+            case "Cat":
+                animal = new Cat(name, breed, cost, character);
+                break;
+            case "Shark":
+                animal = new Shark(name, breed, cost, character);
+                break;
+            case "Wolf":
+                animal = new Wolf(name, breed, cost, character);
+                break;
+        }
+        return animal;
     }
 }
 

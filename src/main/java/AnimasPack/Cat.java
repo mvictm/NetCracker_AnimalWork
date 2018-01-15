@@ -12,7 +12,15 @@ public class Cat extends Pet {
         super.breed = Util.randomName();
         super.character = Util.randomName();
         super.cost = Util.randomCost();
-        super.degreeOfPollution = 0;
+        Cat.Fleas c = new Cat.Fleas();
+        c.haveFleas(Util.randomNumb());
+    }
+
+    public Cat(String name, String breed, Integer cost, String character) {
+        super.name = name;
+        super.breed = breed;
+        super.cost = cost;
+        super.character = character;
         Cat.Fleas c = new Cat.Fleas();
         c.haveFleas(Util.randomNumb());
     }

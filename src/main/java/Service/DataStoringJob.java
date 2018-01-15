@@ -7,6 +7,7 @@ import AnimasPack.Animal;
 import Utils.Util;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 import java.util.List;
@@ -38,6 +39,8 @@ public class DataStoringJob {
 
         try (FileWriter writer = new FileWriter(Util.getRootPath() + "/" + Util.getDatabasePath())) {
             writer.write("{");
+            writer.write("\"Animals" + "\":" + "\n");
+            writer.write("[");
 
             for (int i = 0; i < list.size(); i++) {
                 object.put("Type", list.get(i).getType());
@@ -48,7 +51,6 @@ public class DataStoringJob {
 
                 if (i == list.size() - 1) {
                     try {
-                        writer.write("\"Animal " + (i + 1) + "\":" + "\n");
                         writer.write(object.toJSONString() + "\n");
 
                         StringBuilder infoString = new StringBuilder();
@@ -61,7 +63,6 @@ public class DataStoringJob {
                     }
                 } else
                     try {
-                        writer.write("\"Animal " + (i + 1) + "\":" + "\n");
                         writer.write(object.toJSONString() + "," + "\n");
 
                         StringBuilder infoString = new StringBuilder();
@@ -73,7 +74,7 @@ public class DataStoringJob {
                         lOGGER.error(errorString);
                     }
             }
-
+            writer.write("]");
             writer.write("}");
             writer.flush();
             writer.close();

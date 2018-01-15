@@ -15,19 +15,23 @@ import Utils.Util;
 public class RealLife {
 
     public static void main(String[] args) {
-        RealLifeEmulator realLifeEmulator =  RealLifeEmulator.getInstance();
+        // RealLifeEmulator realLifeEmulator =  RealLifeEmulator.getInstance();
+
+        //Util.parseDatabaseFile();
 
 
-
-        /*Shark shark = new Shark();
+        Shark shark = new Shark();
         Dog dog = new Dog();
+        Cat cat = new Cat();
         PetShopStorage petShopStorage = PetShopStorage.getInstance();
         petShopStorage.addToAnimalList(shark);
         petShopStorage.addToAnimalList(dog);
+        petShopStorage.addToAnimalList(cat);
 
         DataStoringJob dataStoringJob = DataStoringJob.getInstance();
-        dataStoringJob.run();*/
+        dataStoringJob.run();
 
+        Util.parseDatabaseFile();
         //Util.useDb();
 
         /*System.out.println(shark.information());

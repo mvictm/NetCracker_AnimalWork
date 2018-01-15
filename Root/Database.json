@@ -1,3 +1,5 @@
-{"Animal 1":
-{"Type":"Shark","Breed":"r","Character":"","Cost":"425","Name":"kft"}
-}
+{"Animals":
+[{"Type":"Shark","Breed":"e","Character":"","Cost":"3586","Name":""},
+{"Type":"Dog","Breed":"focsfyti","Character":"gksn","Cost":"3837","Name":""},
+{"Type":"Cat","Breed":"jhallz","Character":"jjkn","Cost":"5851","Name":"yaxdi"}
+]}

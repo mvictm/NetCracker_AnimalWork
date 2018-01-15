@@ -1,6 +1,7 @@
 package Service;
 
 import AnimasPack.Animal;
+import Utils.Util;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -32,9 +33,9 @@ public class PetShopStorage {
     }
 
     public List<Animal> getAnimalList() {
-        /*if(animalList.size()==null){
-            загрузить из файлика
-        * }*/
+        if (animalList.size() == 0) {
+            animalList = Util.parseDatabaseFile();
+        }
         return animalList;
     }
 

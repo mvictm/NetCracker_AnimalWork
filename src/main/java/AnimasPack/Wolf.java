@@ -12,7 +12,15 @@ public class Wolf extends Predator {
         super.breed = Util.randomName();
         super.character = Util.randomName();
         super.cost = Util.randomCost();
-        super.degreeOfPollution = 0;
+        Wolf.Disease w = new Wolf.Disease();
+        w.haveDisease(Util.randomNumb());
+    }
+
+    public Wolf(String name, String breed, Integer cost, String character) {
+        super.name = name;
+        super.breed = breed;
+        super.cost = cost;
+        super.character = character;
         Wolf.Disease w = new Wolf.Disease();
         w.haveDisease(Util.randomNumb());
     }
