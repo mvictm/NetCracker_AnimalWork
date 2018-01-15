@@ -1,7 +1,9 @@
 "# NetCracker_AnimalWork" 
 
-This project made from sh*t and sticks. Please help me.
+<u>This project made from sh*t and sticks. Please help me.</u>
 
-Method useDb() (/Utils/Util) return null.(I fix it later)
+<s>Method useDb() (/Utils/Util) return null.(I fix it later)</s><i>Complete!</i>
 
-I don't know, what I need to do with Enum(Singleton). 
+<s>I don't know, what I need to do with Enum(Singleton).</s>
+ 
+ I have one idea about enum-singleton. Create later.
