@@ -334,3 +334,11 @@
 2018-01-16 21:29:50,737 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
 2018-01-16 21:29:50,738 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
 2018-01-16 21:29:50,738 INFO S.DataStoringJob [main] Successful recording in fileDatabase.json
+2018-01-16 21:50:32,245 INFO U.Util [main] Repeated take Root/ path
+2018-01-16 21:53:03,840 INFO U.Util [main] Repeated take Root/ path
+2018-01-16 21:56:34,389 INFO U.Util [main] Repeated take Root/ path
+2018-01-16 21:58:44,031 INFO U.Util [main] Repeated take Root/ path
+2018-01-16 21:58:44,149 INFO U.Util [main] Repeated take Root/ path
+2018-01-16 21:58:44,153 INFO U.Util [main] Take information from Database.json about animal: Shark - Breed: wjnukh Name: ml Character:  Cost: 1349
+2018-01-16 21:58:44,153 INFO U.Util [main] Take information from Database.json about animal: Dog - Breed: xltjvgr Name: slxt Character: jnl Cost: 1229
+2018-01-16 21:58:44,154 INFO U.Util [main] Take information from Database.json about animal: Cat - Breed: ccs Name: q Character: xnh Cost: 317

@@ -1,8 +1,25 @@
 {
-"Animals":
-[
-{"Type":"Shark","Breed":"wtp","Character":"puk","Cost":"4890","Name":"ddpgaq"},
-{"Type":"Dog","Breed":"cnaxyezd","Character":"p","Cost":"296","Name":""},
-{"Type":"Cat","Breed":"ogrluy","Character":"mrk","Cost":"107","Name":"ro"}
-]
+  "Animals": [
+    {
+      "Type": "Shark",
+      "Breed": "wjnukh",
+      "Character": "",
+      "Cost": "1349",
+      "Name": "ml"
+    },
+    {
+      "Type": "Dog",
+      "Breed": "xltjvgr",
+      "Character": "jnl",
+      "Cost": "1229",
+      "Name": "slxt"
+    },
+    {
+      "Type": "Cat",
+      "Breed": "ccs",
+      "Character": "xnh",
+      "Cost": "317",
+      "Name": "q"
+    }
+  ]
 }

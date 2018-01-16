@@ -31,13 +31,7 @@ public class RealLife {
         DataStoringJob dataStoringJob = DataStoringJob.getInstance();
         dataStoringJob.run();
 
-        SearchService searchService = SearchService.getInstance();
-        System.out.println(searchService.searchAnimalByBreed(cat.getBreed()).information());
-
-        /*DataStoringJob dataStoringJob = DataStoringJob.getInstance();
-        dataStoringJob.run();
-
-        Util.parseDatabaseFile();*/
+        Util.parseDatabaseFile();
         //Util.useDb();
 
         /*System.out.println(shark.information());

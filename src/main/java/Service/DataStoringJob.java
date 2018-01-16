@@ -34,50 +34,29 @@ public class DataStoringJob {
 
     public void run() {
         List<Animal> list = petShopStorage.getAnimalList();
+        try {
 
-        JSONObject object = new JSONObject();
+            FileWriter file = new FileWriter(Util.getRootPath() + "/" + Util.getDatabasePath());
+            JSONObject firstObj = new JSONObject();
+            JSONArray array = new JSONArray();
 
-        try (FileWriter writer = new FileWriter(Util.getRootPath() + "/" + Util.getDatabasePath())) {
-            writer.write("{" + "\n");
-            writer.write("\"Animals" + "\":" + "\n");
-            writer.write("[" + "\n");
-
-            for (int i = 0; i < list.size(); i++) {
-                object.put("Type", list.get(i).getType());
-                object.put("Name", list.get(i).getName());
-                object.put("Character", list.get(i).getCharacter());
-                object.put("Cost", list.get(i).getCost().toString());
-                object.put("Breed", list.get(i).getBreed());
-
-                if (i == list.size() - 1) {
-                    try {
-                        writer.write(object.toJSONString() + "\n");
-
-                        StringBuilder infoString = new StringBuilder();
-                        infoString.append("Successful recording in file" + Util.getDatabasePath());
-                        lOGGER.info(infoString);
-                    } catch (IOException ex) {
-                        StringBuilder errorString = new StringBuilder();
-                        errorString.append("Can't put JSON object in file " + Util.getDatabasePath());
-                        lOGGER.error(errorString);
-                    }
-                } else
-                    try {
-                        writer.write(object.toJSONString() + "," + "\n");
-
-                        StringBuilder infoString = new StringBuilder();
-                        infoString.append("Successful recording in file" + Util.getDatabasePath());
-                        lOGGER.info(infoString);
-                    } catch (IOException ex) {
-                        StringBuilder errorString = new StringBuilder();
-                        errorString.append("Can't write in file " + Util.getDatabasePath());
-                        lOGGER.error(errorString);
-                    }
+            for (Animal animal : list) {
+                JSONObject object = new JSONObject();
+                object.put("Type", animal.getType());
+                object.put("Name", animal.getName());
+                object.put("Character", animal.getCharacter());
+                object.put("Cost", animal.getCost().toString());
+                object.put("Breed", animal.getBreed());
+                array.add(object);
             }
-            writer.write("]" + "\n");
-            writer.write("}");
-            writer.flush();
-            writer.close();
+
+            firstObj.put("Animals", array);
+            file.write(firstObj.toJSONString() + "\n");
+            file.close();
+
+            StringBuilder infoString = new StringBuilder();
+            infoString.append("Successful recording in file" + Util.getDatabasePath());
+            lOGGER.info(infoString);
         } catch (IOException e) {
             StringBuilder errorString = new StringBuilder();
             errorString.append("Can't write in file " + Util.getDatabasePath());
