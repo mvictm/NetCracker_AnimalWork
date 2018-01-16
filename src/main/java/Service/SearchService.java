@@ -2,6 +2,9 @@ package Service;
 
 import AnimasPack.Animal;
 
+import java.util.Collection;
+import java.util.stream.Stream;
+
 /**
  * Created by 1 on 20.12.2017.
  */
@@ -17,63 +20,28 @@ public class SearchService {
     private SearchService() {
     }
 
-    public Animal searchAnimalBreed(String breed) {
-        Animal animal = null;
-        for (int i = 0; i < petShopStorage.getSize(); i++) {
-            if (petShopStorage.getAnimal(i).getBreed().equals(breed)) {
-                animal = petShopStorage.getAnimal(i);
-                System.out.println(animal.information());
-                return animal;
-            }
-        }
-        return animal;
+    public Animal searchAnimalByBreed(String breed) {
+        Object[] a = petShopStorage.getAnimalList().stream().filter(s -> breed.equals(s.getBreed())).limit(1).toArray();
+        return a.length > 0 ? (Animal) a[0] : null;
     }
 
-    public Animal searchAnimalName(String name) {
-        Animal animal = null;
-        for (int i = 0; i < petShopStorage.getSize(); i++) {
-            if (petShopStorage.getAnimal(i).getName().equals(name)) {
-                animal = petShopStorage.getAnimal(i);
-                System.out.println(animal.information());
-                return animal;
-            }
-        }
-        return animal;
+    public Animal searchAnimalByName(String name) {
+        Object[] a = petShopStorage.getAnimalList().stream().filter(s -> name.equals(s.getName())).limit(1).toArray();
+        return a.length > 0 ? (Animal) a[0] : null;
     }
 
-    public Animal searchAnimalCost(Integer cost) {
-        Animal animal = null;
-        for (int i = 0; i < petShopStorage.getSize(); i++) {
-            if (petShopStorage.getAnimal(i).getCost().equals(cost)) {
-                animal = petShopStorage.getAnimal(i);
-                System.out.println(animal.information());
-                return animal;
-            }
-        }
-        return animal;
+    public Animal searchAnimalByCost(Integer cost) {
+        Object[] a = petShopStorage.getAnimalList().stream().filter(s -> cost.equals(s.getCost())).limit(1).toArray();
+        return a.length > 0 ? (Animal) a[0] : null;
     }
 
-    public Animal searchAnimalCost(Integer lowCost, Integer highCost) {
-        Animal animal = null;
-        for (int i = 0; i < petShopStorage.getSize(); i++) {
-            if (petShopStorage.getAnimal(i).getCost() >= lowCost && petShopStorage.getAnimal(i).getCost() <= highCost) {
-                animal = petShopStorage.getAnimal(i);
-                System.out.println(animal.information());
-                return animal;
-            }
-        }
-        return animal;
+    public Animal searchAnimalByCost(Integer lowCost, Integer highCost) {
+        Object[] a = petShopStorage.getAnimalList().stream().filter(s -> lowCost >= (s.getCost()) && highCost <= s.getCost()).limit(1).toArray();
+        return a.length > 0 ? (Animal) a[0] : null;
     }
 
-    public Animal searchAnimalChatacter(String character) {
-        Animal animal = null;
-        for (int i = 0; i < petShopStorage.getSize(); i++) {
-            if (petShopStorage.getAnimal(i).getCharacter().equals(character)) {
-                animal = petShopStorage.getAnimal(i);
-                System.out.println(animal.information());
-                return animal;
-            }
-        }
-        return animal;
+    public Animal searchAnimalByChatacter(String character) {
+        Object[] a = petShopStorage.getAnimalList().stream().filter(s -> character.equals(s.getCharacter())).limit(1).toArray();
+        return a.length > 0 ? (Animal) a[0] : null;
     }
 }

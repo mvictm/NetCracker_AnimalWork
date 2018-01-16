@@ -38,9 +38,9 @@ public class DataStoringJob {
         JSONObject object = new JSONObject();
 
         try (FileWriter writer = new FileWriter(Util.getRootPath() + "/" + Util.getDatabasePath())) {
-            writer.write("{");
+            writer.write("{" + "\n");
             writer.write("\"Animals" + "\":" + "\n");
-            writer.write("[");
+            writer.write("[" + "\n");
 
             for (int i = 0; i < list.size(); i++) {
                 object.put("Type", list.get(i).getType());
@@ -74,7 +74,7 @@ public class DataStoringJob {
                         lOGGER.error(errorString);
                     }
             }
-            writer.write("]");
+            writer.write("]" + "\n");
             writer.write("}");
             writer.flush();
             writer.close();
